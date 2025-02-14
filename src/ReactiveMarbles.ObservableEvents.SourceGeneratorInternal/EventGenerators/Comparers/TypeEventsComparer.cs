@@ -2,7 +2,7 @@
 // ReactiveUI Association Incorporated licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for full license information.
 
-namespace ReactiveMarbles.ObservableEvents.SourceGenerator.EventGenerators;
+namespace R3.ObservableEvents.SourceGenerator.EventGenerators;
 
 internal class TypeEventsComparer : IEqualityComparer<TypeEvents>, IComparer<TypeEvents>
 {

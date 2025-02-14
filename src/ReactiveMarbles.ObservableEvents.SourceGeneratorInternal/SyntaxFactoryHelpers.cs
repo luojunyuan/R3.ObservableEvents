@@ -8,7 +8,7 @@ using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 
-namespace ReactiveMarbles.ObservableEvents.SourceGenerator;
+namespace R3.ObservableEvents.SourceGenerator;
 
 /// <summary>
 ///     Versions of the syntax factory that handles some trivia for us automatically, to avoid the NormalizeWhitespace

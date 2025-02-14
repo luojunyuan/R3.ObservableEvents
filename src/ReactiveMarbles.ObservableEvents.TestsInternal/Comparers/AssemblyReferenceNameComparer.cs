@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using ICSharpCode.Decompiler.Metadata;
 
-namespace ReactiveMarbles.ObservableEvents.Tests.Comparers;
+namespace R3.ObservableEvents.Tests.Comparers;
 
 internal class AssemblyReferenceNameComparer : IEqualityComparer<IAssemblyReference>
 {

@@ -5,7 +5,7 @@
 using System.Collections.Concurrent;
 using System.Collections.ObjectModel;
 
-namespace ReactiveMarbles.ObservableEvents.SourceGenerator.EventGenerators;
+namespace R3.ObservableEvents.SourceGenerator.EventGenerators;
 
 /// <summary>
 ///     Contains metadata about types.

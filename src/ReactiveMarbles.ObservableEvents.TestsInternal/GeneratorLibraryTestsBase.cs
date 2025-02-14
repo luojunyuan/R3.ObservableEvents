@@ -6,7 +6,7 @@ using System.Collections.Concurrent;
 
 #pragma warning disable CS0618 // Type or member is obsolete
 
-namespace ReactiveMarbles.ObservableEvents.Tests;
+namespace R3.ObservableEvents.Tests;
 
 /// <summary>
 /// Tests for generators.
@@ -200,9 +200,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-using ReactiveMarbles.ObservableEvents;
+using R3.ObservableEvents;
 
-namespace ReactiveMarbles.ObservableEvents.Tests
+namespace R3.ObservableEvents.Tests
 {{
     public class TestCode : {classDeclaration.FullName.Replace('+', '.')}
     {{
@@ -255,9 +255,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-using ReactiveMarbles.ObservableEvents;
+using R3.ObservableEvents;
 
-namespace ReactiveMarbles.ObservableEvents.Tests
+namespace R3.ObservableEvents.Tests
 {{
     public class TestCode
     {{

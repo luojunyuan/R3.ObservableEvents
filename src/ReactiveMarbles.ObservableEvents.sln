@@ -15,17 +15,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\version.json = ..\version.json
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReactiveMarbles.ObservableEvents.Example", "ReactiveMarbles.ObservableEvents.Example\ReactiveMarbles.ObservableEvents.Example.csproj", "{F59625C4-A2D4-4826-8748-1C633188FC4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R3.ObservableEvents.Example", "ReactiveMarbles.ObservableEvents.Example\R3.ObservableEvents.Example.csproj", "{F59625C4-A2D4-4826-8748-1C633188FC4B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReactiveMarbles.ObservableEvents.SourceGenerator", "ReactiveMarbles.ObservableEvents.SourceGenerator\ReactiveMarbles.ObservableEvents.SourceGenerator.csproj", "{54534C57-36F5-43C5-84AB-78F5B824D6DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R3.ObservableEvents.SourceGenerator", "ReactiveMarbles.ObservableEvents.SourceGenerator\R3.ObservableEvents.SourceGenerator.csproj", "{54534C57-36F5-43C5-84AB-78F5B824D6DE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReactiveMarbles.ObservableEvents.SourceGenerator38", "ReactiveMarbles.ObservableEvents.SourceGeneratorInternal38\ReactiveMarbles.ObservableEvents.SourceGenerator38.csproj", "{1E80BE33-BDC5-4EAA-9349-B85C470647C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R3.ObservableEvents.SourceGenerator40", "ReactiveMarbles.ObservableEvents.SourceGeneratorInternal40\R3.ObservableEvents.SourceGenerator40.csproj", "{58D14AC0-D4FE-4E1B-B182-E0DBEAD29E15}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReactiveMarbles.ObservableEvents.SourceGenerator40", "ReactiveMarbles.ObservableEvents.SourceGeneratorInternal40\ReactiveMarbles.ObservableEvents.SourceGenerator40.csproj", "{58D14AC0-D4FE-4E1B-B182-E0DBEAD29E15}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReactiveMarbles.ObservableEvents.Tests38", "ReactiveMarbles.ObservableEvents.Tests38\ReactiveMarbles.ObservableEvents.Tests38.csproj", "{BB20C70D-1F91-4228-8D9A-5F83C1A02875}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReactiveMarbles.ObservableEvents.Tests40", "ReactiveMarbles.ObservableEvents.Tests40\ReactiveMarbles.ObservableEvents.Tests40.csproj", "{0EF7B20B-CCC4-4DD4-8361-90E7BF485B27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R3.ObservableEvents.Tests40", "ReactiveMarbles.ObservableEvents.Tests40\R3.ObservableEvents.Tests40.csproj", "{0EF7B20B-CCC4-4DD4-8361-90E7BF485B27}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,18 +37,10 @@ Global
 		{54534C57-36F5-43C5-84AB-78F5B824D6DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54534C57-36F5-43C5-84AB-78F5B824D6DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54534C57-36F5-43C5-84AB-78F5B824D6DE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1E80BE33-BDC5-4EAA-9349-B85C470647C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1E80BE33-BDC5-4EAA-9349-B85C470647C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1E80BE33-BDC5-4EAA-9349-B85C470647C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1E80BE33-BDC5-4EAA-9349-B85C470647C3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{58D14AC0-D4FE-4E1B-B182-E0DBEAD29E15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{58D14AC0-D4FE-4E1B-B182-E0DBEAD29E15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58D14AC0-D4FE-4E1B-B182-E0DBEAD29E15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58D14AC0-D4FE-4E1B-B182-E0DBEAD29E15}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BB20C70D-1F91-4228-8D9A-5F83C1A02875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BB20C70D-1F91-4228-8D9A-5F83C1A02875}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BB20C70D-1F91-4228-8D9A-5F83C1A02875}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BB20C70D-1F91-4228-8D9A-5F83C1A02875}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0EF7B20B-CCC4-4DD4-8361-90E7BF485B27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0EF7B20B-CCC4-4DD4-8361-90E7BF485B27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EF7B20B-CCC4-4DD4-8361-90E7BF485B27}.Release|Any CPU.ActiveCfg = Release|Any CPU

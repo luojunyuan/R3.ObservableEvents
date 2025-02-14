@@ -1,11 +1,11 @@
 {
   "profiles": {
-    "ReactiveMarbles.ObservableEvents.SourceGenerator": {
+    "R3.ObservableEvents.SourceGenerator": {
       "commandName": "Project"
     },
     "Roslyn": {
       "commandName": "DebugRoslynComponent",
-      "targetProject": "..\\ReactiveMarbles.ObservableEvents.Example\\ReactiveMarbles.ObservableEvents.Example.csproj"
+      "targetProject": "..\\R3.ObservableEvents.Example\\R3.ObservableEvents.Example.csproj"
     }
   }
 }

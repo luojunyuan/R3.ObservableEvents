@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using NuGet.Frameworks;
 
-namespace ReactiveMarbles.ObservableEvents.Tests.Comparers;
+namespace R3.ObservableEvents.Tests.Comparers;
 
 internal class NuGetFrameworkInRangeComparer : IComparer<NuGetFramework>, IEqualityComparer<NuGetFramework>
 {

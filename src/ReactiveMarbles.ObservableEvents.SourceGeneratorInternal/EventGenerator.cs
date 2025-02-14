@@ -2,13 +2,13 @@
 // ReactiveUI Association Incorporated licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for full license information.
 
-using ReactiveMarbles.ObservableEvents.SourceGenerator.EventGenerators;
-using ReactiveMarbles.ObservableEvents.SourceGenerator.EventGenerators.Generators;
-using ReactiveMarbles.PropertyChanged.SourceGenerator;
+using R3.ObservableEvents.SourceGenerator.EventGenerators;
+using R3.ObservableEvents.SourceGenerator.EventGenerators.Generators;
+using R3.PropertyChanged.SourceGenerator;
 
-using static ReactiveMarbles.ObservableEvents.SourceGenerator.SyntaxFactoryHelpers;
+using static R3.ObservableEvents.SourceGenerator.SyntaxFactoryHelpers;
 
-namespace ReactiveMarbles.ObservableEvents.SourceGenerator;
+namespace R3.ObservableEvents.SourceGenerator;
 
 internal static class EventGenerator
 {
@@ -32,7 +32,7 @@ internal static class EventGenerator
     {
         var classDeclaration = ClassDeclaration("ObservableGeneratorExtensions", new[] { SyntaxKind.InternalKeyword, SyntaxKind.StaticKeyword, SyntaxKind.PartialKeyword }, methodInvocationExtensions, 1);
 
-        var namespaceDeclaration = NamespaceDeclaration("ReactiveMarbles.ObservableEvents", new[] { classDeclaration }, true);
+        var namespaceDeclaration = NamespaceDeclaration("R3.ObservableEvents", new[] { classDeclaration }, true);
 
         var compilationUnit = GenerateCompilationUnit(namespaceDeclaration);
 
@@ -52,11 +52,11 @@ internal static class EventGenerator
         out List<(Location Location, INamedTypeSymbol NamedType)> staticNamespaceList,
         CancellationToken token)
     {
-        var observableGeneratorExtensions = compilation.GetTypeByMetadataName("ReactiveMarbles.ObservableEvents.ObservableGeneratorExtensions");
+        var observableGeneratorExtensions = compilation.GetTypeByMetadataName("R3.ObservableEvents.ObservableGeneratorExtensions");
 
         if (observableGeneratorExtensions == null)
         {
-            throw new InvalidOperationException("Cannot find ReactiveMarbles.ObservableEvents.ObservableGeneratorExtensions");
+            throw new InvalidOperationException("Cannot find R3.ObservableEvents.ObservableGeneratorExtensions");
         }
 
         instanceNamespaceList = new List<(Location Location, INamedTypeSymbol NamedType)>();
@@ -101,7 +101,7 @@ internal static class EventGenerator
         {
             token.ThrowIfCancellationRequested();
 
-            if (attribute.AttributeClass?.ToString() != "ReactiveMarbles.ObservableEvents.GenerateStaticEventObservablesAttribute")
+            if (attribute.AttributeClass?.ToString() != "R3.ObservableEvents.GenerateStaticEventObservablesAttribute")
             {
                 continue;
             }

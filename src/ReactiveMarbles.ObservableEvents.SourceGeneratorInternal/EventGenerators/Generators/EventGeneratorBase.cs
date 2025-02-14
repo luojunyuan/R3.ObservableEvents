@@ -6,9 +6,9 @@ using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 
-using static ReactiveMarbles.ObservableEvents.SourceGenerator.SyntaxFactoryHelpers;
+using static R3.ObservableEvents.SourceGenerator.SyntaxFactoryHelpers;
 
-namespace ReactiveMarbles.ObservableEvents.SourceGenerator.EventGenerators.Generators;
+namespace R3.ObservableEvents.SourceGenerator.EventGenerators.Generators;
 
 /// <summary>
 /// Generates common code generation between both static and instance based observables for events.

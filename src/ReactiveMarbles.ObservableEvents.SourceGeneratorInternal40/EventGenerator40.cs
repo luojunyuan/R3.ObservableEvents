@@ -4,7 +4,7 @@
 
 using System.Diagnostics;
 
-namespace ReactiveMarbles.ObservableEvents.SourceGenerator;
+namespace R3.ObservableEvents.SourceGenerator;
 
 /// <summary>
 /// Roslyn 40 generator for geneating events.

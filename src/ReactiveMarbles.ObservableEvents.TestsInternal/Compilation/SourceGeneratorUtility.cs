@@ -11,7 +11,7 @@ using System.Linq;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
 
-namespace ReactiveMarbles.SourceGenerator.TestNuGetHelper.Compilation
+namespace R3.SourceGenerator.TestNuGetHelper.Compilation
 {
     /// <summary>
     /// The source generator utility which helps with getting NuGet packages and the source driver together.

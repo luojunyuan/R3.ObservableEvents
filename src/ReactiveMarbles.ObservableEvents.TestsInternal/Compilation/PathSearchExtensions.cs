@@ -11,9 +11,9 @@ using System.Runtime.InteropServices;
 using ICSharpCode.Decompiler.Metadata;
 using ICSharpCode.Decompiler.TypeSystem;
 using NuGet.Frameworks;
-using ReactiveMarbles.NuGet.Helpers;
+using R3.NuGet.Helpers;
 
-namespace ReactiveMarbles.SourceGenerator.TestNuGetHelper.Compilation
+namespace R3.SourceGenerator.TestNuGetHelper.Compilation
 {
     internal static class PathSearchExtensions
     {

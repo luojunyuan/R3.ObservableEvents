@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <LangVersion>latest</LangVersion>
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -15,7 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ReactiveMarbles.ObservableEvents.SourceGeneratorInternal38\ReactiveMarbles.ObservableEvents.SourceGenerator38.csproj" ReferenceOutputAssembly="false"  />
-    <ProjectReference Include="..\ReactiveMarbles.ObservableEvents.SourceGeneratorInternal40\ReactiveMarbles.ObservableEvents.SourceGenerator40.csproj" ReferenceOutputAssembly="false" />
+    <ProjectReference Include="..\ReactiveMarbles.ObservableEvents.SourceGeneratorInternal40\R3.ObservableEvents.SourceGenerator40.csproj" ReferenceOutputAssembly="false" />
   </ItemGroup>
 </Project>

@@ -14,10 +14,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ReactiveMarbles.ObservableEvents.SourceGeneratorInternal38\ReactiveMarbles.ObservableEvents.SourceGenerator38.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Compile Include="..\ReactiveMarbles.ObservableEvents.TestsInternal\**\*.cs" />
   </ItemGroup>
 

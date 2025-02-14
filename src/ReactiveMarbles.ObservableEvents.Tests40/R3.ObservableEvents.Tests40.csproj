@@ -1,10 +1,10 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net7.0</TargetFrameworks>
+    <TargetFrameworks>net9.0</TargetFrameworks>
     <IsPackable>false</IsPackable>
     <NoWarn>$(NoWarn);SA1600</NoWarn>
-    <RootNamespace>ReactiveMarbles.ObservableEvents.Tests</RootNamespace>
+    <RootNamespace>R3.ObservableEvents.Tests</RootNamespace>
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
   </PropertyGroup>
 
@@ -14,15 +14,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ReactiveMarbles.ObservableEvents.SourceGeneratorInternal40\ReactiveMarbles.ObservableEvents.SourceGenerator40.csproj" />
+    <ProjectReference Include="..\ReactiveMarbles.ObservableEvents.SourceGeneratorInternal40\R3.ObservableEvents.SourceGenerator40.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include="..\ReactiveMarbles.ObservableEvents.TestsInternal\**\*.cs" />
+    <Compile Include="..\R3.ObservableEvents.TestsInternal\**\*.cs" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\ReactiveMarbles.ObservableEvents.TestsInternal\**\*.tt" />
+    <None Include="..\R3.ObservableEvents.TestsInternal\**\*.tt" />
   </ItemGroup>
 
   <ItemGroup>

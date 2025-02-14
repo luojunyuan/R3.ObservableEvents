@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using NuGet.Packaging.Core;
 
-namespace ReactiveMarbles.ObservableEvents.Tests.Comparers;
+namespace R3.ObservableEvents.Tests.Comparers;
 
 internal class PackageIdentityNameComparer : IEqualityComparer<PackageIdentity>
 {

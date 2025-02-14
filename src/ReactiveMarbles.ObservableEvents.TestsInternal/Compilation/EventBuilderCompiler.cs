@@ -15,10 +15,10 @@ using ICSharpCode.Decompiler.Util;
 
 using NuGet.Frameworks;
 
-using ReactiveMarbles.NuGet.Helpers;
-using ReactiveMarbles.SourceGenerator.TestNuGetHelper.Comparers;
+using R3.NuGet.Helpers;
+using R3.SourceGenerator.TestNuGetHelper.Comparers;
 
-namespace ReactiveMarbles.SourceGenerator.TestNuGetHelper.Compilation
+namespace R3.SourceGenerator.TestNuGetHelper.Compilation
 {
     /// <summary>
     /// This class is based on ICSharpCode.Decompiler SimpleCompiler.

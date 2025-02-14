@@ -14,9 +14,9 @@ using NuGet.Frameworks;
 using NuGet.Packaging;
 using NuGet.Packaging.Core;
 using NuGet.Versioning;
-using ReactiveMarbles.NuGet.Helpers;
+using R3.NuGet.Helpers;
 
-namespace ReactiveMarbles.SourceGenerator.TestNuGetHelper.Compilation
+namespace R3.SourceGenerator.TestNuGetHelper.Compilation
 {
     /// <summary>
     /// Implements the reference locations for windows builds.

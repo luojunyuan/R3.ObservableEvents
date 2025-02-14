@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using ICSharpCode.Decompiler.TypeSystem;
 
-namespace ReactiveMarbles.SourceGenerator.TestNuGetHelper.Comparers
+namespace R3.SourceGenerator.TestNuGetHelper.Comparers
 {
     internal class ModuleNameComparer : IEqualityComparer<IModule>
     {

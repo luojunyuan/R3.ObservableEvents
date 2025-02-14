@@ -4,7 +4,7 @@
 
 using Microsoft.CodeAnalysis;
 
-namespace ReactiveMarbles.ObservableEvents.SourceGenerator.EventGenerators;
+namespace R3.ObservableEvents.SourceGenerator.EventGenerators;
 
 internal class TypeNameComparer : IEqualityComparer<INamedTypeSymbol>, IComparer<INamedTypeSymbol>
 {

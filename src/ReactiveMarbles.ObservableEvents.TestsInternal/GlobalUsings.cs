@@ -12,5 +12,5 @@ global using NuGet.Frameworks;
 global using NuGet.LibraryModel;
 global using NuGet.Versioning;
 
-global using ReactiveMarbles.NuGet.Helpers;
-global using ReactiveMarbles.SourceGenerator.TestNuGetHelper.Compilation;
+global using R3.NuGet.Helpers;
+global using R3.SourceGenerator.TestNuGetHelper.Compilation;

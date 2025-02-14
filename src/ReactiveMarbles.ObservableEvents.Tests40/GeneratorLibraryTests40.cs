@@ -4,9 +4,9 @@
 
 using Microsoft.CodeAnalysis;
 
-using ReactiveMarbles.ObservableEvents.SourceGenerator;
+using R3.ObservableEvents.SourceGenerator;
 
-namespace ReactiveMarbles.ObservableEvents.Tests;
+namespace R3.ObservableEvents.Tests;
 
 /// <summary>
 /// Tests the Roslyn 4.0 version of the generator.

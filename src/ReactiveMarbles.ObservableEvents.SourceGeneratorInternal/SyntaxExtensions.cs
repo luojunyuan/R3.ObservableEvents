@@ -6,9 +6,9 @@ using System.Runtime.CompilerServices;
 
 using Microsoft.CodeAnalysis;
 
-using static ReactiveMarbles.ObservableEvents.SourceGenerator.SyntaxFactoryHelpers;
+using static R3.ObservableEvents.SourceGenerator.SyntaxFactoryHelpers;
 
-namespace ReactiveMarbles.ObservableEvents.SourceGenerator;
+namespace R3.ObservableEvents.SourceGenerator;
 
 internal static class SyntaxExtensions
 {

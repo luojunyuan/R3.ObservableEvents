@@ -4,7 +4,7 @@
 
 using Microsoft.CodeAnalysis;
 
-namespace ReactiveMarbles.PropertyChanged.SourceGenerator;
+namespace R3.PropertyChanged.SourceGenerator;
 
 internal static class DiagnosticWarnings
 {

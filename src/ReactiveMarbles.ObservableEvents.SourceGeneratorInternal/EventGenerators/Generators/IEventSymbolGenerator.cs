@@ -5,7 +5,7 @@
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 
-namespace ReactiveMarbles.ObservableEvents.SourceGenerator.EventGenerators.Generators;
+namespace R3.ObservableEvents.SourceGenerator.EventGenerators.Generators;
 
 /// <summary>
 /// Generates based on events in the base code.

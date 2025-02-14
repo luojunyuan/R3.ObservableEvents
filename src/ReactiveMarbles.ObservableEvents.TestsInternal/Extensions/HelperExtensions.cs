@@ -10,7 +10,7 @@ using System.Text;
 
 using Microsoft.CodeAnalysis;
 
-namespace ReactiveMarbles.ObservableEvents.Tests;
+namespace R3.ObservableEvents.Tests;
 
 internal static class HelperExtensions
 {

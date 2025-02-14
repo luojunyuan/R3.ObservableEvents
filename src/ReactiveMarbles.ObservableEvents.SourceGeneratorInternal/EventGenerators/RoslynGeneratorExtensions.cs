@@ -8,9 +8,9 @@ using System.Text;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 
-using static ReactiveMarbles.ObservableEvents.SourceGenerator.SyntaxFactoryHelpers;
+using static R3.ObservableEvents.SourceGenerator.SyntaxFactoryHelpers;
 
-namespace ReactiveMarbles.ObservableEvents.SourceGenerator.EventGenerators;
+namespace R3.ObservableEvents.SourceGenerator.EventGenerators;
 
 internal static class RoslynGeneratorExtensions
 {

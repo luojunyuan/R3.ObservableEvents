@@ -6,7 +6,7 @@ using ICSharpCode.Decompiler.TypeSystem;
 using ICSharpCode.Decompiler.TypeSystem.Implementation;
 using ICSharpCode.Decompiler.Util;
 
-namespace ReactiveMarbles.SourceGenerator.TestNuGetHelper.Compilation
+namespace R3.SourceGenerator.TestNuGetHelper.Compilation
 {
     /// <summary>
     /// Cache for KnownTypeReferences.

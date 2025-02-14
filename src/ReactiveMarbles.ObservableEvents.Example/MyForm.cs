@@ -7,14 +7,14 @@ using System.Collections.ObjectModel;
 using System.Reactive.Linq;
 using System.Threading.Tasks;
 
-using ReactiveMarbles.ObservableEvents;
+using R3.ObservableEvents;
 
 using Xamarin.Forms;
 
 [assembly: GenerateStaticEventObservables(typeof(StaticTest))]
 
 #pragma warning disable
-namespace ReactiveMarbles.ObservableEvents
+namespace R3.ObservableEvents
 {
     /// <summary>
     /// Code behind for the same page.

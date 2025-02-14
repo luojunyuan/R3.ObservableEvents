@@ -8,7 +8,7 @@ using System.Diagnostics.CodeAnalysis;
 
 using ICSharpCode.Decompiler.TypeSystem;
 
-namespace ReactiveMarbles.ObservableEvents.Tests.Comparers;
+namespace R3.ObservableEvents.Tests.Comparers;
 
 internal class ModuleNameComparer : IEqualityComparer<IModule>
 {

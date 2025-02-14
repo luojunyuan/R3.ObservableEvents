@@ -4,7 +4,7 @@
 
 using Microsoft.CodeAnalysis;
 
-namespace ReactiveMarbles.ObservableEvents.SourceGenerator.EventGenerators;
+namespace R3.ObservableEvents.SourceGenerator.EventGenerators;
 
 /// <summary>
 /// A comparer which will compare <see cref="INamedTypeSymbol"/> names.
