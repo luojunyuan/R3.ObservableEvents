@@ -2,7 +2,7 @@
     <img width="150" src="./images/logo.png"/>
 </a>
 
-# Observable Event Generator for R3
+# Observable Event Generator for [R3](https://github.com/Cysharp/R3)
 
 **This repository's implementation is identical to the upstream, with only structural adjustments.**
 
@@ -19,7 +19,7 @@ Install the following packages to start using Observable Events.
 | [R3Extensions.ObservableEvents.SourceGenerator][Core]       | Core - Libary     | [![CoreBadge]][Core]             |
 
 [Core]: https://www.nuget.org/packages/R3Extensions.ObservableEvents.SourceGenerator/
-[CoreBadge]: https://img.shields.io/nuget/v/ReactiveMarbles.ObservableEvents.SourceGenerator.svg
+[CoreBadge]: https://img.shields.io/nuget/v/R3Extensions.ObservableEvents.SourceGenerator.svg
 
 ## Manual Installation
 
