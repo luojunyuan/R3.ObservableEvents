@@ -43,8 +43,8 @@ internal abstract class EventGeneratorBase : IEventSymbolGenerator
 
         var attributes = RoslynHelpers.GenerateObsoleteAttributeList(eventDetails);
 
-        // Produces for static: public static global::System.IObservable<(argType1, argType2)> EventName => (contents of expression body)
-        // Produces for instance: public global::System.IObservable<(argType1, argType2)> EventName => (contents of expression body)
+        // Produces for static: public static global::R3.Observable<(argType1, argType2)> EventName => (contents of expression body)
+        // Produces for instance: public global::R3.Observable<(argType1, argType2)> EventName => (contents of expression body)
         return PropertyDeclaration(observableEventArgType, prefix + eventDetails.Name, attributes, modifiers, expressionBody, 2)
             .WithLeadingTrivia(XmlSyntaxFactory.GenerateSummarySeeAlsoComment("Gets an observable which signals when the {0} event triggers.", eventDetails.ConvertToDocument()))
             .WithSemicolonToken(Token(SyntaxKind.SemicolonToken));
@@ -78,7 +78,7 @@ internal abstract class EventGeneratorBase : IEventSymbolGenerator
         }
         else
         {
-            // Produces argument: (global::System.Reactive.Unit.Default)
+            // Produces argument: (global::R3.Unit.Default)
             methodParametersArgumentList = RoslynHelpers.ReactiveUnitArgumentList;
             eventArgsType = IdentifierName(RoslynHelpers.ObservableUnitName);
         }
@@ -96,7 +96,7 @@ internal abstract class EventGeneratorBase : IEventSymbolGenerator
                 localFunctionExpression,
                 ExpressionStatement(GenerateEventAssignment(SyntaxKind.AddAssignmentExpression, eventName, dataObjectName, "Handler")),
                 ReturnStatement(InvocationExpression(
-                    MemberAccessExpression(SyntaxKind.SimpleMemberAccessExpression, "global::System.Reactive.Disposables.Disposable", "Create"),
+                    MemberAccessExpression(SyntaxKind.SimpleMemberAccessExpression, "global::R3.Disposable", "Create"),
                     new ArgumentSyntax[]
                     {
                         Argument(ParenthesizedLambdaExpression(GenerateEventAssignment(SyntaxKind.SubtractAssignmentExpression, eventName, dataObjectName, "Handler")))
@@ -104,14 +104,14 @@ internal abstract class EventGeneratorBase : IEventSymbolGenerator
             },
             2));
 
-        // Produces: => global::System.Reactive.Linq.Observable.Create<TypeParameter>(obs =>
+        // Produces: => global::R3.Observable.Create<TypeParameter>(obs =>
         // {
         //    void Handler(...event params...) => obs.OnNext(params);
         //    _data.Event += Handler;
-        //    return global::System.Reactive.Disposables.Disposable.Create(() => _data.Event -= Handler);
+        //    return global::R3.Disposable.Create(() => _data.Event -= Handler);
         // }
         var expression = ArrowExpressionClause(InvocationExpression(
-            MemberAccessExpression(SyntaxKind.SimpleMemberAccessExpression, "global::System.Reactive.Linq.Observable", GenericName("Create", new[] { eventArgsType })),
+            MemberAccessExpression(SyntaxKind.SimpleMemberAccessExpression, "global::R3.Observable", GenericName("Create", new[] { eventArgsType })),
             new[]
             {
                 Argument(conversionLambdaExpression),

@@ -91,7 +91,7 @@ internal static class DelegateGenerator
         var attributes = RoslynHelpers.GenerateObsoleteAttributeList(method);
 
         // Produces:
-        // public System.IObservable<type> MethodNameObs => _observableName;
+        // public R3.Observable<type> MethodNameObs => _observableName;
         return PropertyDeclaration(method.GenerateObservableTypeArguments().GenerateObservableType(), method.Name + "Obs", attributes, modifiers, ArrowExpressionClause(IdentifierName(observableName)), 2)
             .WithLeadingTrivia(XmlSyntaxFactory.GenerateSummarySeeAlsoComment("Gets an observable which signals when the {0} method is invoked.", method.ConvertToDocument()));
     }

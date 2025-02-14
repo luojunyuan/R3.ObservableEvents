@@ -15,7 +15,7 @@ namespace R3.ObservableEvents.SourceGenerator.EventGenerators;
 /// </summary>
 internal static class RoslynHelpers
 {
-    internal const string ObservableUnitName = "global::System.Reactive.Unit";
+    internal const string ObservableUnitName = "global::R3.Unit";
     internal const string VoidType = "System.Void";
 
     public static SymbolDisplayFormat SymbolDisplayFormat { get; } = new SymbolDisplayFormat(typeQualificationStyle: SymbolDisplayTypeQualificationStyle.NameAndContainingTypesAndNamespaces, genericsOptions: SymbolDisplayGenericsOptions.IncludeTypeParameters | SymbolDisplayGenericsOptions.IncludeTypeConstraints | SymbolDisplayGenericsOptions.IncludeVariance);

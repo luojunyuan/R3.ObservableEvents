@@ -12,7 +12,7 @@ using System;
 namespace R3.ObservableEvents
 {
     /// <summary>
-    /// Extension methods to generate IObservable for contained events on the class.
+    /// Extension methods to generate Observable for contained events on the class.
     /// </summary>
     internal static partial class ObservableGeneratorExtensions
     {
@@ -27,7 +27,7 @@ namespace R3.ObservableEvents
     }
 
     /// <summary>
-    /// Generates a IObservable`T` wrapper for the specified type.
+    /// Generates a Observable`T` wrapper for the specified type.
     /// </summary>
     [AttributeUsage(AttributeTargets.Assembly)]
     internal class GenerateStaticEventObservablesAttribute : Attribute

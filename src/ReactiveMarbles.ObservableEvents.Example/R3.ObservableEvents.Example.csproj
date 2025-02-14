@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="System.Reactive" Version="6.0.1" />
+    <PackageReference Include="R3" Version="1.2.9" />
     <PackageReference Include="xamarin.forms" Version="5.*" />
   </ItemGroup>
 

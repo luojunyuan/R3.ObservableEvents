@@ -7,10 +7,10 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <IsRoslynComponent>true</IsRoslynComponent>
     <NoWarn>$(NoWarn);NU5128;NU5128</NoWarn>
+    <PackageId>R3Extensions.ObservableEvents.SourceGenerator</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\ReactiveMarbles.ObservableEvents.SourceGeneratorInternal38\bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).dll" PackagePath="analyzers\dotnet\roslyn3.8\cs" Pack="true" Visible="false" />
     <None Include="..\ReactiveMarbles.ObservableEvents.SourceGeneratorInternal40\bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).dll" PackagePath="analyzers\dotnet\roslyn4.0\cs" Pack="true" Visible="false" />
   </ItemGroup>
 

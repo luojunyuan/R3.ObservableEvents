@@ -144,12 +144,12 @@ internal static class RoslynGeneratorExtensions
 
     public static TypeSyntax GenerateObservableType(this TypeArgumentListSyntax argumentList)
     {
-        return QualifiedName(IdentifierName("global::System"), GenericName("IObservable").WithTypeArgumentList(argumentList));
+        return QualifiedName(IdentifierName("global::R3"), GenericName("Observable").WithTypeArgumentList(argumentList));
     }
 
     public static TypeSyntax GenerateObservableType(this TypeSyntax argumentList)
     {
-        return QualifiedName(IdentifierName("global::System"), GenericName("IObservable", new[] { argumentList }));
+        return QualifiedName(IdentifierName("global::R3"), GenericName("Observable", new[] { argumentList }));
     }
 
     public static IReadOnlyList<ParameterSyntax> GenerateMethodParameters(this IMethodSymbol method)
