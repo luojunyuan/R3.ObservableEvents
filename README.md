@@ -2,9 +2,11 @@
     <img width="150" src="./images/logo.png"/>
 </a>
 
-# Observable Event Generator
+# Observable Event Generator for R3
 
-This project is a .NET source generator which produces `IObservable<T>` for events contained within a object including all base classes. `ObservableEvents` generator will convert events within an assembly and create observable wrappers for them, it is based on [Pharmacist](https://github.com/reactiveui/Pharmacist) and uses [.NET Source Generator](https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/source-generators-overview) technology.
+**This repository's implementation is identical to the upstream, with only structural adjustments.**
+
+This project is a .NET source generator which produces `Observable<T>` for events contained within a object including all base classes. `ObservableEvents` generator will convert events within an assembly and create observable wrappers for them, it is based on [Pharmacist](https://github.com/reactiveui/Pharmacist) and uses [.NET Source Generator](https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/source-generators-overview) technology.
 
 ## NuGet Packages
 
@@ -14,9 +16,9 @@ Install the following packages to start using Observable Events.
 
 | Name                          | Platform          | NuGet                            |
 | ----------------------------- | ----------------- | -------------------------------- |
-| [ReactiveMarbles.ObservableEvents.SourceGenerator][Core]       | Core - Libary     | [![CoreBadge]][Core]             |
+| [R3Extensions.ObservableEvents.SourceGenerator][Core]       | Core - Libary     | [![CoreBadge]][Core]             |
 
-[Core]: https://www.nuget.org/packages/ReactiveMarbles.ObservableEvents.SourceGenerator/
+[Core]: https://www.nuget.org/packages/R3Extensions.ObservableEvents.SourceGenerator/
 [CoreBadge]: https://img.shields.io/nuget/v/ReactiveMarbles.ObservableEvents.SourceGenerator.svg
 
 ## Manual Installation
@@ -25,8 +27,8 @@ Include the following in your .csproj file
 
 ```xml
 <PackageReference
-    Include="ReactiveMarbles.ObservableEvents.SourceGenerator"
-    Version="1.0.2"
+    Include="R3.ObservableEvents.SourceGenerator"
+    Version="1.3.0"
     PrivateAssets="all" />
 ```
 
@@ -36,10 +38,10 @@ The `PrivateAssets` will prevent the ObservableEvents source generator from bein
 
 ### Instance Based
 
-It injects a class for instance based events into your source code which will expose a extension method called `Events()`. You need to include the namespace `ReactiveMarbles.ObservableEvents` to access to the extension method. You can then use this to get `IObservable<T>` instances from your events.
+It injects a class for instance based events into your source code which will expose a extension method called `Events()`. You need to include the namespace `R3.ObservableEvents` to access to the extension method. You can then use this to get `Observable<T>` instances from your events.
 
 ```cs
-using ReactiveMarbles.ObservableEvents;
+using R3.ObservableEvents;
 
 public void MyClass : INotifyPropertyChanged
 {
