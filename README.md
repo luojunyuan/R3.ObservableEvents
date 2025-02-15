@@ -1,10 +1,10 @@
-<a href="https://github.com/reactivemarbles/observableevents">
+<a href="https://github.com/luojunyuan/R3.ObservableEvents">
     <img width="150" src="./images/logo.png"/>
 </a>
 
 # Observable Event Generator for [R3](https://github.com/Cysharp/R3)
 
-**This repository's implementation is identical to the upstream, with only structural adjustments.**
+**This repository's implementation is identical to the upstream, with only structural adjustments. Icon from icon8**
 
 This project is a .NET source generator which produces `Observable<T>` for events contained within a object including all base classes. `ObservableEvents` generator will convert events within an assembly and create observable wrappers for them, it is based on [Pharmacist](https://github.com/reactiveui/Pharmacist) and uses [.NET Source Generator](https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/source-generators-overview) technology.
 

@@ -8,18 +8,19 @@
     <Authors>Glenn Watson</Authors>
     <Copyright>Copyright (c) 2011-$([System.DateTime]::Now.ToString(yyyy)) ReactiveUI Association Inc</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/reactivemarbles/ObservableEvents</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/luojunyuan/R3.ObservableEvents</PackageProjectUrl>
     <PackageDescription>Allows to get an observables for property changed events.</PackageDescription>
     <PackageIcon>logo.png</PackageIcon>
-    <Owners>glennawatson</Owners>
-    <PackageTags>system.reactive;propertychanged;inpc;reactive;functional</PackageTags>
+    <Owners>k1mlka</Owners>
+    <PackageTags>r3;propertychanged;inpc;reactive;functional</PackageTags>
     <PackageReleaseNotes>https://github.com/reactivemarbles/ObservableEvents/releases</PackageReleaseNotes>
-    <RepositoryUrl>https://github.com/reactivemarbles/ObservableEvents</RepositoryUrl>
+    <RepositoryUrl>https://github.com/luojunyuan/R3.ObservableEvents</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <EnableNETAnalyzers>true</EnableNETAnalyzers>
     <ImplicitUsings>true</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageId>R3Extensions.ObservableEvents.SourceGenerator</PackageId>
 
     <!-- Publish the repository URL in the built .nupkg (in the NuSpec <Repository> element) -->
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
