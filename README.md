@@ -66,3 +66,7 @@ public static class StaticTest
     public static event EventHandler? TestChanged;
 }
 ```
+
+### Only `NullEvents()` ?
+
+Try explicitly cast `control` like `((Border)border).Events()`
